@@ -148,3 +148,63 @@ class EarthquakeAPI:
 earthquake_api = EarthquakeAPI()
 print(earthquake_api.version)
 pprint(earthquake_api.query({'starttime': '2017-08-07'}))
+
+
+
+
+############
+# Fri 8/11 10am
+
+# rob started 3 years ago from 30 people to 300 today
+# python rest API, postgres, mongo db
+# external api for plugins, internal for apps
+# download sample product
+
+# user builds form in editor
+#
+# TBL_FORM
+# Form_ID
+# Form Title
+# Form sub title
+# Owner_id --> FK User ID
+#
+
+# TBL_Question
+# Question_ID
+# Form_ID --> FK Form ID
+# Question Title
+# Is_Required
+# Question_Desc
+# Question_Type_ID
+# Order_ID (within the form)
+
+
+# TBL_SubQuestion
+# Sub_QuestionID
+# QuestionID
+# OptionID --> muliptle choice fields
+
+
+# TBL_Question_Type
+# Question_type_id
+# Question_type_name (multiple choice, radio, text)
+
+# TBL_Form_access
+#
+
+
+# TBL_Answer
+# Answer_ID
+# Question_ID
+# Answering_user_id
+# answer_text
+
+# answer_choice
+# Answer_ID
+# Question_ID
+# Answering_user_id
+# sub_question_id
+# is_chosen
+
+x = 0
+

@@ -2,6 +2,7 @@ green = 'green'
 yellow = 'yellow'
 red = 'red'
 
+
 class Light:
     def __init__(self, direction, green_time=8, yellow_time=3, red_time=2):
         self.direction = direction  # ns or ew

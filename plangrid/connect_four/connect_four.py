@@ -18,7 +18,7 @@ class ConnectFour:
         :return:
         """
         if self.next_row[column] == self.height:
-            raise Exception('Column already full')
+            raise Exception('Column already full')  # TODO: handle gracefully
 
         row = int(self.next_row[column])  # next_row is int64... ugh.
 

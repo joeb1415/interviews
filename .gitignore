@@ -28,6 +28,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+*.DS_store
 .idea/
 
 # PyInstaller
